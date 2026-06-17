@@ -9,9 +9,9 @@ void rodar_testes() {
     assert(t[0][0] == ' ');
   
     assert(jogada_valida(t, 0, 0) == 1);
-    assert(jogada_valida(t, 4, 0) == 0); // Fora do limite
+    assert(jogada_valida(t, 4, 0) == 0); 
     t[0][0] = 'X';
-    assert(jogada_valida(t, 0, 0) == 0); // Casa ocupada
+    assert(jogada_valida(t, 0, 0) == 0);
 
     inicializar_tabuleiro(t);
     t[0][0] = 'X'; t[0][1] = 'X'; t[0][2] = 'X';
