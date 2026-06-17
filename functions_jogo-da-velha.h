@@ -14,4 +14,4 @@ int verificar_vencedor(char tab[3][3], char j);
 
 int tabuleiro_cheio(char tab[3][3]);
 
-#endif // FUNCTIONS_JOGO_DA_VELHA_H
+#endif 
