@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
     srand(time(NULL));
     char tab[3][3];
     char h_char = ' ', c_char = ' ';
-    int is_auto = 0, turno = 1; // 1 = Jogador 1, 2 = Jogador 2 (Computador)
+    int is_auto = 0, turno = 1;
 
     // Definição do caractere
     if (argc > 1 && (argv[1][0] == 'X' || argv[1][0] == 'O')) {
