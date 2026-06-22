@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
-#include "functions_jogo-da-velha.h"
+#include "functions_jogo-da-velha.c"
 
 void rodar_testes() {
     char t[3][3];
